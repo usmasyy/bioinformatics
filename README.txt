@@ -1,11 +1,25 @@
-> Why do I have a folder named ".vercel" in my project?
-The ".vercel" folder is created when you link a directory to a Vercel project.
+# Bioinformatics-Based Decision Support System for Malaria, Dengue, COVID-19, and Typhoid
 
-> What does the "project.json" file contain?
-The "project.json" file contains:
-- The ID of the Vercel project that you linked ("projectId")
-- The ID of the user or team your Vercel project is owned by ("orgId")
+## Overview
 
-> Should I commit the ".vercel" folder?
-No, you should not share the ".vercel" folder with anyone.
-Upon creation, it will be automatically added to your ".gitignore" file.
+This project presents a **Bioinformatics-Based Decision Support System (BBDSS)** designed to assist healthcare professionals in diagnosing malaria, dengue, COVID-19, and typhoid fever. Utilizing global alignment algorithms, the system analyzes user-selected symptoms to determine the most likely disease. Developed in Python, this tool aims to enhance diagnostic accuracy and efficiency in clinical settings.
+
+## Features
+
+- **Disease Diagnosis**: Users can input symptoms and receive predictions for malaria, dengue, COVID-19, and typhoid.
+- **Global Alignment Algorithms**: The system employs advanced algorithms for sequence alignment to compare user symptoms with benchmark sequences for each disease.
+- **User-Friendly Interface**: Designed for ease of use, allowing healthcare professionals to quickly input data and interpret results.
+- **Expert System Integration**: Incorporates an expert system that utilizes IF-THEN rules for decision-making based on symptom analysis.
+
+## Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone  https://github.com/usmasyy/bioinformatics-based-decision-support-system-tool
+   cd bioinformatics-dss
+
+   ```bash
+pip install requirments.txt
+
+   ```bash
+python backend/app.py
