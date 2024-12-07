@@ -18,8 +18,5 @@ This project presents a **Bioinformatics-Based Decision Support System (BBDSS)**
    git clone  https://github.com/usmasyy/bioinformatics-based-decision-support-system-tool
 
 
-  
-    pip install requirments.txt
-
-
-    python backend/app.py
+ ```bash
+ python backend/app.py
