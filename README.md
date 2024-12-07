@@ -22,4 +22,4 @@ This project presents a **Bioinformatics-Based Decision Support System (BBDSS)**
     pip install requirments.txt
 
    ```bash
-python backend/app.py
+    python backend/app.py
