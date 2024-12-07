@@ -16,7 +16,7 @@ This project presents a **Bioinformatics-Based Decision Support System (BBDSS)**
 1. **Clone the Repository**:
    ```bash
    git clone  https://github.com/usmasyy/bioinformatics-based-decision-support-system-tool
-   cd bioinformatics-dss
+
 
    ```bash
 pip install requirments.txt
